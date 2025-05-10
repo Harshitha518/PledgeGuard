@@ -3,6 +3,7 @@
 ## **Firebase Setup**
 This project uses Firebase for backend services.
 To run the app locally, you need to add your own GoogleService-Info.plist file.
+
 **Steps:**
 1. Go to Firebase Console.
 2. Create a new project or use an existing one.
