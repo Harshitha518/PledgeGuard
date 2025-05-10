@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Kë cï lueel yam acï yök";
+"report_body_with_address" = "Athör ë %@ ë gɛ̈th acï tuɔɔc thiääk ke %@.";
+"report_body_without_address" = "Athör ë %@ ë gɛ̈th acï thök ë thök.";
+
+
+"pledge_text" = "Ɣɛn acï thɔ̈n ba lööŋ looi ba nyïïr tɔ̈ në riääk yic gël ku ba kɔ̈ɔ̈c në thiɛ̈k de mïth. Ɣɛn acï rɔt gaam ba: \n\n1.   Luel ë lööŋ cë kek yök në PledgeGuard yic (ka lööŋ ë thäät yiic tënë akutnhïïm ë lööŋ ë thäät yiic) ago kuɔny ya gël në thiɛ̈k de mïth në akutnhom de kɔc yiic. \n\n2.   Duk rot mat në gɛɛr de kä ye mïïth cɔk tɔ̈c. \n\n3.   Bë kɔc kɔ̈k cɔk ŋic ku piööc në kë rɛɛc lëu bë rɔt loi në tɔ̈c de mïïth. \n\n4.   Kuɔny ë kɔc cë pïïr ku nyïïr tɔ̈ në riääk yic në thööŋ de keek në käŋ, kuɔɔny ë lööŋ, ku kuɔɔny ë piɔ̈u. \n\n5.   Kuɔny kɔc kɔ̈k bïk lɔ në ajuɛrë yic ku bïk lööŋ looi në tɔŋë thööŋ de röör ke diäär ku gël de kɔc kedhiɛ.";

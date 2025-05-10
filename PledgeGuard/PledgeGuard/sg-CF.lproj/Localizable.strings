@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "A wara fini rapport";
+"report_body_with_address" = "A tokua mbeni rapport ti %@ hio ndulu na %@.";
+"report_body_without_address" = "A zia na sese mbeni rapport ti %@ hio.";
+
+
+"pledge_text" = "Mbi mû zendo ti sara ye ti bata amolenge-wali so ayeke na yâ ti kpale nga ti luti na gbele mariage ti amolenge. Mbi mû zendo ti: \n\n1. Fa tënë ti atënë so a bi tënë na li ti ala na ndo ti PledgeGuard (wala droit na akota zo alingbi na ngoi so a lingbi a sara ni hio) ti mû maboko ti kanga lege na mariage ti amolenge na yâ ti kodoro ti mbi. \n\n\n2. Ti fa ye na ambeni zo na ndo ti akpale so ayeke ga na peko ti mariage ti amolenge. \n\n4. Mungo maboko na azo so asö kuâ nga na amolenge-wali so ayeke na yâ ti kpale na lege ti tingbingo ala na aye ti mungo maboko, mungo maboko ti ndia, nga na mungo maboko na lege ti bibe \n\n5 Ti pusu ambeni zo ti lï na yâ ti bungbi ni ti bata azo kue.";

@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D570AFE32DBB8A9400B4D23E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D570AFE22DBB8A9400B4D23E /* FirebaseAuth */; };
+		D570AFE52DBB8A9400B4D23E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D570AFE42DBB8A9400B4D23E /* FirebaseCore */; };
+		D570AFE72DBB8A9400B4D23E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D570AFE62DBB8A9400B4D23E /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D570AF702DBAD59E00B4D23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D570AF592DBAD59C00B4D23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D570AF602DBAD59C00B4D23E;
+			remoteInfo = PledgeGuard;
+		};
+		D570AF7A2DBAD59E00B4D23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D570AF592DBAD59C00B4D23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D570AF602DBAD59C00B4D23E;
+			remoteInfo = PledgeGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D570AF612DBAD59D00B4D23E /* PledgeGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PledgeGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570AF6F2DBAD59E00B4D23E /* PledgeGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PledgeGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570AF792DBAD59E00B4D23E /* PledgeGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PledgeGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D570B01B2DBC54D500B4D23E /* Exceptions for "PledgeGuard" folder in "PledgeGuard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D570AF602DBAD59C00B4D23E /* PledgeGuard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D570AF632DBAD59D00B4D23E /* PledgeGuard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D570B01B2DBC54D500B4D23E /* Exceptions for "PledgeGuard" folder in "PledgeGuard" target */,
+			);
+			path = PledgeGuard;
+			sourceTree = "<group>";
+		};
+		D570AF722DBAD59E00B4D23E /* PledgeGuardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PledgeGuardTests;
+			sourceTree = "<group>";
+		};
+		D570AF7C2DBAD59E00B4D23E /* PledgeGuardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PledgeGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D570AF5E2DBAD59C00B4D23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D570AFE52DBB8A9400B4D23E /* FirebaseCore in Frameworks */,
+				D570AFE32DBB8A9400B4D23E /* FirebaseAuth in Frameworks */,
+				D570AFE72DBB8A9400B4D23E /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570AF6C2DBAD59E00B4D23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570AF762DBAD59E00B4D23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D570AF582DBAD59C00B4D23E = {
+			isa = PBXGroup;
+			children = (
+				D570AF632DBAD59D00B4D23E /* PledgeGuard */,
+				D570AF722DBAD59E00B4D23E /* PledgeGuardTests */,
+				D570AF7C2DBAD59E00B4D23E /* PledgeGuardUITests */,
+				D570AF622DBAD59D00B4D23E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D570AF622DBAD59D00B4D23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D570AF612DBAD59D00B4D23E /* PledgeGuard.app */,
+				D570AF6F2DBAD59E00B4D23E /* PledgeGuardTests.xctest */,
+				D570AF792DBAD59E00B4D23E /* PledgeGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D570AF602DBAD59C00B4D23E /* PledgeGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D570AF832DBAD59E00B4D23E /* Build configuration list for PBXNativeTarget "PledgeGuard" */;
+			buildPhases = (
+				D570AF5D2DBAD59C00B4D23E /* Sources */,
+				D570AF5E2DBAD59C00B4D23E /* Frameworks */,
+				D570AF5F2DBAD59C00B4D23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D570AF632DBAD59D00B4D23E /* PledgeGuard */,
+			);
+			name = PledgeGuard;
+			packageProductDependencies = (
+				D570AFE22DBB8A9400B4D23E /* FirebaseAuth */,
+				D570AFE42DBB8A9400B4D23E /* FirebaseCore */,
+				D570AFE62DBB8A9400B4D23E /* FirebaseFirestore */,
+			);
+			productName = PledgeGuard;
+			productReference = D570AF612DBAD59D00B4D23E /* PledgeGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D570AF6E2DBAD59E00B4D23E /* PledgeGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D570AF862DBAD59E00B4D23E /* Build configuration list for PBXNativeTarget "PledgeGuardTests" */;
+			buildPhases = (
+				D570AF6B2DBAD59E00B4D23E /* Sources */,
+				D570AF6C2DBAD59E00B4D23E /* Frameworks */,
+				D570AF6D2DBAD59E00B4D23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D570AF712DBAD59E00B4D23E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D570AF722DBAD59E00B4D23E /* PledgeGuardTests */,
+			);
+			name = PledgeGuardTests;
+			packageProductDependencies = (
+			);
+			productName = PledgeGuardTests;
+			productReference = D570AF6F2DBAD59E00B4D23E /* PledgeGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D570AF782DBAD59E00B4D23E /* PledgeGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D570AF892DBAD59E00B4D23E /* Build configuration list for PBXNativeTarget "PledgeGuardUITests" */;
+			buildPhases = (
+				D570AF752DBAD59E00B4D23E /* Sources */,
+				D570AF762DBAD59E00B4D23E /* Frameworks */,
+				D570AF772DBAD59E00B4D23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D570AF7B2DBAD59E00B4D23E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D570AF7C2DBAD59E00B4D23E /* PledgeGuardUITests */,
+			);
+			name = PledgeGuardUITests;
+			packageProductDependencies = (
+			);
+			productName = PledgeGuardUITests;
+			productReference = D570AF792DBAD59E00B4D23E /* PledgeGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D570AF592DBAD59C00B4D23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					D570AF602DBAD59C00B4D23E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					D570AF6E2DBAD59E00B4D23E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D570AF602DBAD59C00B4D23E;
+					};
+					D570AF782DBAD59E00B4D23E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = D570AF602DBAD59C00B4D23E;
+					};
+				};
+			};
+			buildConfigurationList = D570AF5C2DBAD59C00B4D23E /* Build configuration list for PBXProject "PledgeGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"ha-NE",
+				"sg-CF",
+				"fr-TD",
+				"bm-ML",
+				ar,
+				"pt-BR",
+				din,
+				"nus-SS",
+				dyu,
+				"ff-Adlm-GN",
+				"so-SO",
+				"ar-TD",
+			);
+			mainGroup = D570AF582DBAD59C00B4D23E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D570AFE12DBB8A9400B4D23E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D570AF622DBAD59D00B4D23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D570AF602DBAD59C00B4D23E /* PledgeGuard */,
+				D570AF6E2DBAD59E00B4D23E /* PledgeGuardTests */,
+				D570AF782DBAD59E00B4D23E /* PledgeGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D570AF5F2DBAD59C00B4D23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570AF6D2DBAD59E00B4D23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570AF772DBAD59E00B4D23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D570AF5D2DBAD59C00B4D23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570AF6B2DBAD59E00B4D23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D570AF752DBAD59E00B4D23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D570AF712DBAD59E00B4D23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D570AF602DBAD59C00B4D23E /* PledgeGuard */;
+			targetProxy = D570AF702DBAD59E00B4D23E /* PBXContainerItemProxy */;
+		};
+		D570AF7B2DBAD59E00B4D23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D570AF602DBAD59C00B4D23E /* PledgeGuard */;
+			targetProxy = D570AF7A2DBAD59E00B4D23E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D570AF812DBAD59E00B4D23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D570AF822DBAD59E00B4D23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D570AF842DBAD59E00B4D23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PledgeGuard/PledgeGuard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PledgeGuard/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harshitha.PledgeGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		D570AF852DBAD59E00B4D23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PledgeGuard/PledgeGuard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PledgeGuard/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harshitha.PledgeGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		D570AF872DBAD59E00B4D23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harshitha.PledgeGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PledgeGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PledgeGuard";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		D570AF882DBAD59E00B4D23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harshitha.PledgeGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PledgeGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PledgeGuard";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		D570AF8A2DBAD59E00B4D23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harshitha.PledgeGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = PledgeGuard;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		D570AF8B2DBAD59E00B4D23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFH3XMDK6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Harshitha.PledgeGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = PledgeGuard;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D570AF5C2DBAD59C00B4D23E /* Build configuration list for PBXProject "PledgeGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570AF812DBAD59E00B4D23E /* Debug */,
+				D570AF822DBAD59E00B4D23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D570AF832DBAD59E00B4D23E /* Build configuration list for PBXNativeTarget "PledgeGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570AF842DBAD59E00B4D23E /* Debug */,
+				D570AF852DBAD59E00B4D23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D570AF862DBAD59E00B4D23E /* Build configuration list for PBXNativeTarget "PledgeGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570AF872DBAD59E00B4D23E /* Debug */,
+				D570AF882DBAD59E00B4D23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D570AF892DBAD59E00B4D23E /* Build configuration list for PBXNativeTarget "PledgeGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D570AF8A2DBAD59E00B4D23E /* Debug */,
+				D570AF8B2DBAD59E00B4D23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D570AFE12DBB8A9400B4D23E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D570AFE22DBB8A9400B4D23E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D570AFE12DBB8A9400B4D23E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D570AFE42DBB8A9400B4D23E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D570AFE12DBB8A9400B4D23E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		D570AFE62DBB8A9400B4D23E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D570AFE12DBB8A9400B4D23E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D570AF592DBAD59C00B4D23E /* Project object */;
+}

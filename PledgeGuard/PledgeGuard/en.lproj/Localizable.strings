@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "New Report Received";
+"report_body_with_address" = "A report of %@ urgency was submitted near %@.";
+"report_body_without_address" = "A report of %@ urgency was just submitted.";
+
+"pledge_text" = "I pledge to take action to protect at-risk girls and stand against child marriage. I commit to: \n\n1.   Reporting suspected cases on PledgeGuard (or straight to authorities depending on urgency) to help prevent child marriage in my community. \n\n2.   Never participate in any  practices that promote child marriage. \n\n3.   Raising awareness and educating others about the dangers of child marriage. \n\n4.   Supporting survivors and at-risk girls by connecting them with resources, legal help, and emotional support. \n\n5.   Encouraging others to join the movement and take action in the fight for gender equality and safety for all.";
+

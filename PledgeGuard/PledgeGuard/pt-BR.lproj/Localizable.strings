@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Novo relatório recebido";
+"report_body_with_address" = "Um relatório de %@ urgência foi enviado próximo a %@.";
+"report_body_without_address" = "Um relatório de %@ urgência foi enviado.";
+
+
+"pledge_text" = "Prometo tomar medidas para proteger meninas em situação de risco e me posicionar contra o casamento infantil. Comprometo-me a: 1. Denunciar casos suspeitos no PledgeGuard (ou diretamente às autoridades, dependendo da urgência) para ajudar a prevenir o casamento infantil na minha comunidade. 2. Nunca participar de nenhuma prática que promova o casamento infantil. 3. Conscientizar e educar outras pessoas sobre os perigos do casamento infantil. 4. Apoiar sobreviventes e meninas em situação de risco, conectando-as a recursos, assistência jurídica e apoio emocional. 5. Incentivar outras pessoas a se juntarem ao movimento e a agirem na luta pela igualdade de gênero e segurança para todos.";

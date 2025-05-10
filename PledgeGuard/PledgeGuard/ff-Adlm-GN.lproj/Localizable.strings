@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Ndeerndu mawɗo waɗi";
+"report_body_with_address" = "Ndeer ndiyam %@ jooɗi e nder %@.";
+"report_body_without_address" = "Ndeer ngol %@ jaasirde woni ko feewi.";
+
+
+"pledge_text" = "Mi yidiima e nder e jamma to ɗe waɗi ɓe, e miɗo waɗi e nder ɓe laawol e jooɗe tawa e jamma. Mi jokkondirii e: \n\n1. Njaɓɓitde ɓe waɗi e nder PledgeGuard (walaa e nder jom leydi fow ko woni ɓe) tawa mi waɗi e jamma to ɓe ɓuri jooɗe. \n\n2. Kadi, miɗo waɗi e nder ɓe laawol e jooɗe tawa e jamma. \n\n3. Njaɓɓitde e nder ɓe laawol e jooɗe tawa e jamma. \n\n4. Njaɓɓitde ɓe waɗi e nder ɓe laawol e jooɗe tawa e jamma. \n\n5. Njaɓɓitde ɓe waɗi e nder ɓe laawol e jooɗe tawa e jamma.";"

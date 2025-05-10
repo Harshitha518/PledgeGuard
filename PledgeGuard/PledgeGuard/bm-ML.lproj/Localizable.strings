@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Rapport kura sɔrɔla";
+"report_body_with_address" = "%@ kɔrɔtɔko rapɔɔri dɔ dira %@ kɛrɛfɛ.";
+"report_body_without_address" = "%@ kɔrɔtɔko rapɔɔri dɔ dira sisan dɔrɔn.";
+
+
+"pledge_text" = "Ne bɛ layidu ta ko ne bɛna fɛɛrɛ tigɛ walasa ka npogotigininw lakana minnu bɛ farati la ani ka jɔ denmisɛnninw ka furu kɛlɛli la. N b'a fɛ ka: \n\n1.   Siga bɛ ko minnu na, olu fɔli PledgeGuard kan (walima ka ɲɛsin faamaw ma ka kɛɲɛ ni kɔrɔtɔko ye) walasa ka dɛmɛ don ka denmisɛnw ka furu bali ne ka sigida la. \n\n2.   Aw kana aw sen don wale si la abada min bɛ denmisɛnw ka furu sabati. \n\n3.   Ka mɔgɔw bila u hakili la ani ka mɔgɔ wɛrɛw kalan denmisɛnninw ka furu faratiw kan. \n\n4.   Ka mɔgɔ kisilenw ni npogotiginin minnu bɛ farati la, olu dɛmɛni kɛ ni u ni nafolomafɛnw, sariya dɛmɛni ani dusukunnataw dɛmɛni ye. \n\n5.   Ka dusu don mɔgɔ wɛrɛw kɔnɔ u ka fara jɛkulu in kan ani ka fɛɛrɛ tigɛ cɛ ni muso ka bɛn ni lakana kɛlɛli la bɛɛ ye.";

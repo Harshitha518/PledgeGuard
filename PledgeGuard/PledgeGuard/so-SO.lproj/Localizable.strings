@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Warbixin Cusub Oo La Helay";
+"report_body_with_address" = "Warbixin %@ degdeg ah ayaa la gudbiyay meel u dhow %@.";
+"report_body_without_address" = "Warbixin %@ degdeg ah ayaa hadda la gudbiyay.";
+
+
+"pledge_text" = "Waxaan ballan qaadayaa inaan qaadi doono tallaabo aan ku ilaalinayo gabdhaha halista ku jira oo aan uga hortagayo guurka ubadka. Waxaan ballan qaadayaa: \n\n1. Ka warbixinta kiisaska la tuhunsan yahay ee PledgeGuard (ama si toos ah mas'uuliyiinta iyadoo ku xiran xaalad degdeg ah) si ay gacan uga geystaan ​​ka hortagga guurka ilmaha ee beeshayda. \n\n2. Weligaa ha ka qaybgalin dhaqamada kor u qaadaya guurka ubadka. \n\n3. Kor u qaadista wacyiga iyo wacyigelinta dadka kale khatarta guurka ubadka. \n\n4. Taageerida badbaadayaasha iyo gabdhaha halista ku jira iyadoo lagu xirayo agabka, caawinta sharciga, iyo taageerada niyadeed. \n\n5. Ku dhiirigelinta kuwa kale inay ku biiraan dhaqdhaqaaqa oo ay qaadaan tallaabo dagaalka loogu jiro sinnaanta jinsiga iyo badbaadada dhammaan.";

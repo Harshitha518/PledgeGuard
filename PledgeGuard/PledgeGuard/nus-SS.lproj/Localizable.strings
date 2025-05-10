@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Kë cï lueel yam acï yök";
+"report_body_with_address" = "Athör ë %@ ë gɛ̈th acï tuɔɔc thiääk ke %@.";
+"report_body_without_address" = "Athör ë %@ ë gɛ̈th acï thök ë thök.";
+
+
+"pledge_text" = "Ɣän cä rɔ yac i̱ bä lät ti̱ bä la̱t kɛ kui̱ ga̱ŋ nyi̱er tin te rɛy rikä kä bä cuɔ̱ŋ kɛ kui̱ kuën gan. Ɣän cä rɔ yac i̱: \n\n1. Läri ruac kɛ kui̱ kä tin ca diw kä PledgeGuard (kiɛ läri jɛ ni kä kumɛ mi te kɛ pɛ̈th) kɛ ɣöö ba luäk kɛ ga̱ŋ kuën gan rɛy wecdä. \n\n2. Cu rɔ mat rɛy lätni tin nöŋkɛ kuën gan. \n\n3. Nyuɔ̱th nath kɛnɛ ŋi̱i̱c nath kɛ kui̱ rikä min de ben kä kuën gan. \n\n4. Luäk nɛɛni tin ci kään kɛnɛ nyier tin te rɛy rikä kɛ römdiɛn kɛ kuak, luäk ŋuɔ̱tni, kɛnɛ luäk rɛy cärä. \n\n5. Cuɔ̱ŋ kɛ nɛy tin kɔ̱ŋ kɛ ɣöö bikɛ rɔ̱ mat rɛy köör kä bikɛ lät la̱t rɛy köör kɛ kui̱ kä ɣöö bi wutni kɛnɛ män tekɛ päär kɛnɛ ga̱ŋ nɛɛni diaal.";

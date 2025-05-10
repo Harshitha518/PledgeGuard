@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+"report_received" = "An Karɓi Sabon Rahoton";
+"report_body_with_address" = "An ƙaddamar da rahoton %@ gaggawa kusa da %@.";
+"report_body_without_address" = "An ƙaddamar da rahoton %@ gaggawa.";
+
+
+
+"pledge_text" = "Na yi alkawarin daukar mataki don kare 'yan mata masu hadari da kuma tsayawa kan aure na yara. Na yi alkawarin: \n\n1. Rahoton shaidu masu yiwuwa a kan PledgeGuard (ko kai tsaye ga hukumomi dangane da gaggawa) don taimakawa wajen hana aure na yara a cikin al'ummata. \n\n2. Kada na taba shiga cikin kowanne irin aiki da ke inganta aure na yara. \n\n3. Kara wayar da kan mutane da ilimantar da su game da hadarorin aure na yara. \n\n4. Taimakawa wadanda suka tsira da 'yan mata masu hadari ta hanyar hada su da albarkatu, taimakon doka, da goyon bayan jin dadi. \n\n5. Karfafa gwiwar wasu su shiga cikin wannan motsi da daukar mataki a yaki don daidaito tsakanin jinsi da tsaro ga kowa.";

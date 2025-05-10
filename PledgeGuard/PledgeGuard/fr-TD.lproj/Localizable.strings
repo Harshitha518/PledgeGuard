@@ -1,0 +1,13 @@
+//
+//  Localizable.strings
+//  PledgeGuard
+//
+//  Created by Harshitha Rajesh on 5/2/25.
+//
+
+"report_received" = "Nouveau rapport reçu";
+"report_body_with_address" = "Un rapport d'urgence %@ a été soumis vers %@.";
+"report_body_without_address" = "Un rapport d'urgence %@ vient d'être soumis.";
+
+
+"pledge_text" = "Je m'engage à agir pour protéger les filles à risque et à lutter contre le mariage des enfants. Je m'engage à : \n\n1. Signaler les cas suspects sur PledgeGuard (ou directement aux autorités selon l'urgence) pour aider à prévenir le mariage des enfants dans ma communauté. \n\n2. Ne jamais participer à des pratiques qui promeuvent le mariage des enfants. \n\n3. Sensibiliser et éduquer les autres sur les dangers du mariage des enfants. \n\n4. Soutenir les survivants et les filles à risque en les mettant en relation avec des ressources, une aide juridique et un soutien émotionnel. \n\n5. Encourager les autres à rejoindre le mouvement et à agir pour la lutte pour l'égalité des genres et la sécurité pour tous.";
